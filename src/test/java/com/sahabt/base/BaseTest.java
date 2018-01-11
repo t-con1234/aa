@@ -2,6 +2,7 @@ package com.sahabt.base;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -23,6 +24,15 @@ public class BaseTest {
 			e.printStackTrace();
 		}
 	}
+	
+	@Test
+    public void testCase(){
+        navigate("http://www.hepsiburada.com/");
+    }
+
+    public void navigate(String url) {
+        driver.navigate().to(url);
+    }
 
 	@After
 	public void tearDown() {
