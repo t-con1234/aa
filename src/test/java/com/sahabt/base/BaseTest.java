@@ -31,7 +31,7 @@ public class BaseTest {
     }
 
     public void navigate(String url) {
-        driver.navigate().to(url);
+        driver.get(url);
     }
 
 	@After
