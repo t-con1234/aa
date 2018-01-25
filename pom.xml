@@ -15,9 +15,9 @@
 
     <!-- VERSIONS -->
     <junit.version>4.12</junit.version>
-    <selenium.chrome.driver.version>3.8.1</selenium.chrome.driver.version>
-    <selenium.java.version>3.8.1</selenium.java.version>
-    <selenium.support.version>3.8.1</selenium.support.version>
+    <selenium.chrome.driver.version>3.7.1</selenium.chrome.driver.version>
+    <selenium.java.version>3.7.1</selenium.java.version>
+    <selenium.support.version>3.7.1</selenium.support.version>
     <commons.lang3.version>3.5</commons.lang3.version>
     <log4j.version>1.2.17</log4j.version>
     <slf4j.log4j12.version>1.7.21</slf4j.log4j12.version>
